@@ -21,5 +21,6 @@ The assistant depends on an internet connection for both speech recognition and 
 Purpose:-
 This project was created for learning and demonstration purposes. It focuses on understanding how voice input, speech output, threading, and a basic GUI can be integrated into a single Python application.
 
-Author
+Author:-
+
 Sameer
