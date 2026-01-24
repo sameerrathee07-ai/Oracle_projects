@@ -1,4 +1,5 @@
 Python Voice Assistant
+
 Overview
 This project is a simple voice-controlled assistant built using Python. It listens to spoken commands through the microphone, understands them using an online speech recognition service, and responds using spoken output. The goal of the project is to demonstrate how speech input, speech output, and a basic graphical interface can work together in a single application.
 The assistant is designed to be lightweight, easy to understand, and focused on core functionality rather than advanced artificial intelligence.
