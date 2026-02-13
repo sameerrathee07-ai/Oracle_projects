@@ -18,7 +18,6 @@ def get_weather(city):
     data = response.json()
 
     weather_info = {
-        "city": data["name"],
         "temperature": data["main"]["temp"],
         "feels_like": data["main"]["feels_like"],
         "humidity": data["main"]["humidity"],
@@ -38,8 +37,7 @@ def main():
     if weather is None:
         print("Invalid city name or network error")
         return
-
-    print("City:", weather["city"])
+    
     print("Temperature:", weather["temperature"], "C")
     print("Feels Like:", weather["feels_like"], "C")
     print("Humidity:", weather["humidity"], "%")
