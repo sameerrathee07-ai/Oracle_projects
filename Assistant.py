@@ -22,14 +22,14 @@ def assistant_loop():
                 app.after(0, lambda: status_label.config(text="Recognizing"))
                 command = recognizer.recognize_google(audio).lower()
                 if command == "hello":
-                    speak("Hello. How can I assist you")
-                elif command == "current time ":
+                    speak("Hello. How can I assist you Today")
+                elif command == "what time it is":
                     now = datetime.now()
                     speak(f"The time is {now.strftime('%I:%M %p').lstrip('0')}")        
                 elif command == "today's date":
                     speak(datetime.now().strftime("Today's date is %d %B %Y"))
                 elif command == "exit":
-                    speak("Goodbye")
+                    speak("Closing the assistant. Goodbye!")
                     stop()
                 else:
                     speak("Command not recognized")
