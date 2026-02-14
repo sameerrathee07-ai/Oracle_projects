@@ -1,8 +1,12 @@
 OIBSIP Python Development tasks:-
+
 This repository contains multiple Python projects developed as a part of internship task submissions.Each project demonstrates practical implementation of programming concepts,user interaction,GUI design,API integration and automation .All sorts files documents and demonstration materials are included in this repository on Github Devo videos are uploaded on Linkedin
+
 Task1:- Voice assistant
+
 Objective:-
 To build a simple online Voice Assistant capable of recognizing pre-defined speech commands and responding with audio output while displaying status through a graphical interface
+
 Stack and Libraries used:-
 Python
 Tkinter
