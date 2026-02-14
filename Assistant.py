@@ -23,10 +23,10 @@ def assistant_loop():
                 command = recognizer.recognize_google(audio).lower()
                 if command == "hello":
                     speak("Hello. How can I assist you")
-                elif command == "time":
+                elif command == "current time ":
                     now = datetime.now()
                     speak(f"The time is {now.strftime('%I:%M %p').lstrip('0')}")        
-                elif command == "date":
+                elif command == "today's date":
                     speak(datetime.now().strftime("Today's date is %d %B %Y"))
                 elif command == "exit":
                     speak("Goodbye")
